@@ -4,8 +4,8 @@
 ##### Sidi Mohamed Ben Abdellah University -Fez
 
 # How to run
-```ruby
-cd Server Flask
+```
+import data to server
 python3 server.py
 
 cd project
