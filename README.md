@@ -1,6 +1,7 @@
 # Developed by :
-## AKALLOUCH Mohammed & EL MEKKI ABDELLAH
-
+### AKALLOUCH Mohammed & EL MEKKI ABDELLAH
+#### Master Big data Analytics and Smart Systems
+#### Sidi Mohamed Ben Abdellah University -Fez
 
 # How to run
 ```ruby
