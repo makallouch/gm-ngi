@@ -1,15 +1,11 @@
-# Developed by :
-#### AKALLOUCH Mohammed & EL MEKKI ABDELLAH
-##### Master Big data Analytics and Smart Systems
-##### Sidi Mohamed Ben Abdellah University -Fez
 
 # How to run
 ```
-import data to server
-python3 server.py
+> cd Server\ Flask/
+> python3 server.py
 
-cd project
-ngi serve --force
+> cd project
+> ngi serve --force
 ```
 
 # App Home 
@@ -27,3 +23,9 @@ ngi serve --force
 
 # Places near me 
 ![alt text](https://github.com/akallouch0/gm-ngi/blob/master/Screenshots/img6.png)
+
+
+# Developed by :
+#### AKALLOUCH Mohammed & EL MEKKI ABDELLAH
+##### Master Big data Analytics and Smart Systems
+##### Sidi Mohamed Ben Abdellah University -Fez
