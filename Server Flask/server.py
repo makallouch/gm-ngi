@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import xgboost as xgb
 import random
-train=pd.read_csv('datanew.csv')
+train=pd.read_csv('../Dataset/datanew.csv')
 
 x_train = data.drop(['consommation'], axis=1)
 y_train =np.log1p(data["consommation"]).values
