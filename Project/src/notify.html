@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="../jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../jqxcore.js"></script>
+    <script type="text/javascript" src="../jqxnotification.js"></script>
+    <script type="text/javascript" src="../jqxbuttons.js"></script>
+    <script type="text/javascript" src="../jqxscrollbar.js"></script>
+    <script type="text/javascript" src="../jqxpanel.js"></script>
+    <script type="text/javascript" src="../demos.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#jqxNotification").jqxNotification({ width: "auto", position: "top-right", opacity: 0.9,
+                closeOnClick: true, autoClose: false, showCloseButton: true, template: "mail", blink: true
+            });
+            $("#checkMail").jqxButton();
+            //$("#eventsPanel").jqxPanel({ width: 150, height: 150 });
+            $("#checkMail").click(function () {
+                $("#jqxNotification").jqxNotification("open");
+            });
+            // event handlers
+            $("#jqxNotification").on("open", function (event) {
+                //$("#eventsPanel").jqxPanel("append", event.type + "<br />");
+
+            });
+            $("#jqxNotification").on("close", function (event) {
+                //$("#eventsPanel").jqxPanel("append", event.type + "<br />");
+            });
+            $("#jqxNotification").on("click", function (event) {
+                //$("#eventsPanel").jqxPanel("append", event.type + "<br />");
+                $("#messagePanel").fadeIn();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="jqxNotification">
+        <div>
+            You have <b>2</b> new messages.</div>
+        <div style="font-size: smaller; text-align: center;">
+            Click to view.</div>
+    </div>
+    <button id="checkMail"> Check mail</button>
+
+    
+    <div id="messagePanel" style="width: 400px; display: none;">
+        <p>Hello World</p>
+    </div>
+</body>
+</html>

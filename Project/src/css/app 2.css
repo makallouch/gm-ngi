@@ -1,0 +1,124 @@
+/* Your CSS goes here */
+#main {
+    text-align: center;
+    display: inline-block;
+     background-color: black;
+}
+
+
+
+#close {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+#close img {
+    width: 100%;
+}
+
+@media (min-width: 801px) {
+    #close {
+        top: 104px;
+    }
+}
+
+#map {
+    margin: auto;
+    width: 400px;
+    height: 375px;
+    padding: 5px;
+    
+}
+
+#list-container li {
+    list-style: none;
+    text-align: left;
+}
+
+#list-container li:nth-child(even){
+    background-color:  #ffffff;
+}
+#list-container li {
+    background-color: #999999;
+}
+
+#list-container {
+    height: 375px;
+    width: 390px;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: auto;
+    clear: right;
+}
+
+#mylist {
+
+ font-family: 'Trebuchet MS', 'Lucida Grande',
+   Verdana, Lucida, Geneva, Helvetica, 
+   Arial, sans-serif;
+ background-color: #90bade;
+ color: #333;
+
+height: 375px;
+    width: 700px;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: auto;
+    clear: right;
+    font-size: 20px;
+    align-content: center;
+ }
+
+#mylist li:hover {
+  border-left: 10px solid #1c64d1;
+  border-right: 10px solid #5ba3e0;
+  
+color: black;
+  }
+#mylist li:nth-child(even){
+    background: #e0ebeb;
+color: black;
+}
+
+#mylist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  }
+  
+#mylist li {
+  border-bottom: 1px solid #90bade;
+  margin: 0;
+    padding: 5px;
+    list-style: none;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+
+#map-container{
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+#gpsMaskingIcon {
+    display: none;
+}
+
+#list-container2 {
+    height: 375px;
+    width: 700px;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: auto;
+    clear: right;
+    
+
+}
+

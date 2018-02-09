@@ -1,0 +1,14 @@
+{
+  "name":"Hello World",
+  "id":"92508175",
+  "template": "Blank",
+  "version": "0.0.0",
+  "src": "src",
+  "dist": "dist",
+  "main": "index.html",
+  "icon": "Icon.png",
+  "developer": "Shane Malachow",
+  "category": "General",
+  "type": "RemoteHigh",
+  "description": "Generated on 11/4/2017, 5:55:28 PM by ngi-sdk version "
+}
